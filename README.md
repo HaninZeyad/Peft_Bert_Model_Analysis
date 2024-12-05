@@ -1,16 +1,16 @@
-Intent Classification: Efficiency vs Quality
+## Intent Classification: Efficiency vs Quality
 This project explores the tradeoff between model efficiency and quality for intent classification using the English portion of the Massive dataset. We experiment with different BERT-like models and training approaches to uncover insights into the relationship between these factors.
 
 Task Overview
 We treat intent classification as a text classification task, focusing on the ('utt', 'intent') columns. Model efficiency is evaluated in terms of:
 
-Training time: Time to train the model.
-Model size: Number of parameters.
-Inference time: Time to generate predictions for new inputs.
+### Training time: Time to train the model.
+### Model size: Number of parameters.
+### Inference time: Time to generate predictions for new inputs.
 Model quality is measured by:
 
-F1-score: To handle the imbalanced dataset.
-Classification accuracy: Overall prediction correctness.
+### F1-score: To handle the imbalanced dataset.
+### Classification accuracy: Overall prediction correctness.
 Training Approaches
 Fine-tuning pretrained BERT.
 Training BERT-like model from scratch.
